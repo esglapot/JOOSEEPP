@@ -1,0 +1,31 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+div {
+  text-align: center;
+}
+
+img {
+  width: 10px;
+  height: 10px;
+  border: 5px solid pink;
+  border-radius: 0px;
+  background-color: transparent;
+  transition: all 5s ease-out;
+  transform-origin: center;
+}
+
+
+img:hover {
+  transform: scale(100) rotate(8640deg);
+  border: 10px transparent;
+  border-radius: 5em;
+  background-color: yellow;
+}
